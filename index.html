@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Meeting Minutes for Team 2's First Meeting</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Summary of the team 2's first meeting, including 
+    resources from and media of the meeting.">
+    <link rel="icon" href="media/favicon.png">
+  </head>
+  <body>
+
+    <header>
+        <h1>Team 2 First Meeting</h1>
+        <h2>Meeting type: Brainstorming and check-in</h2>
+        <h2>Date: 4/13/2023</h2>
+    </header>
+    <nav class="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Weekly Updates</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <section>
+        <h3>Attendance list</h3>
+        <ul>
+            <li>Jeremy Smith</li>
+            <li>Brandon Smeth</li>
+            <li>Holly Smieth</li>
+            <li>Toby Smithe</li>
+            <li>Bryan Smeith</li>
+        </ul>
+    </section>
+
+    <section>
+        <h3>Agenda</h3>
+        <ol>
+            <li>Introductions: Introduce all team members and their TA.</li>
+            <li>Icebreaker: Play a few rounds of Charades and get to know each other!</li>
+            <li>Poster: Create a poster board that helps define what the team will embody.</li>
+            <li>Brainstorm: Start collaborating and discussing possible ideas for a <i>cloud computing</i> project.</li>
+            <li>Closure: Close the meeting with any final thoughts, and plan future meetings.</li>
+        </ol>
+    </section>
+
+    <section>
+        <h3>Unfinished business</h3>
+        <p>* <b>N/A</b>: Section reserved for what wasn't finished last meeting *</p>
+    </section>
+
+    <section>
+        <h3>New from this meeting</h3>
+        <ul>
+            <li>Main role division for upcoming project</li>
+            <li>Project section division, organize stages of operation</li>
+            <li>Approximate <strong>time and resource allocation</strong> for each stage</li>
+        </ul>
+    </section>
+
+    <section>
+        <h3>Miscellaneous comments</h3>
+        <details>
+            <summary>Comments made during this meeting:</summary>
+            <ul>
+                <li>All concerns about the project's current timeline and format should be addressed on Slack.</li>
+                <li>We <em>really</em> need to make sure our end goal can be as universally supported as possible.</li>
+                <li>Which roles should we prioritze as having more individuals?</li>
+                <li>Will we have enough time to propose our resource allocation request to finance? Contact their department.</li>
+            </ul>
+        </details>
+        <!--
+            <p>Comments made during this meeting include...</p>
+            <ul>
+                <li>All concerns about the project's current timeline and format should be addressed on Slack.</li>
+                <li>We <em>really</em> need to make sure our end goal can be as universally supported as possible.</li>
+                <li>Which roles should we prioritze as having more individuals?</li>
+                <li>Will we have enough time to propose our resource allocation request to finance? Contact their department.</li>
+            </ul>
+        -->
+    </section>
+    <hr>
+    <section>
+        <h3>Photo board</h3>
+        <img src="screenshots/Figure_1.png" alt="Relations between archiving 
+        space, discussion space, and implementation space. Archiving is connected 
+        to implementation via backups and code work, implementation is connected to 
+        discussion via bug assignment and help, discussion is connected to archiving
+        via user requirements and possible adaptations.">
+        <br>
+        <img src="screenshots/Figure_2.jpeg" alt="Pomodoro technique 5 step process list. 
+        1, Decide on task, 2, Set a 25 minute timer, 3, Work on the task until the timer
+        rings, 4, Take a 5 minute break, 5, After the 4th cycle take a 15 to 30 minute break.">
+    </section>
+    <hr>
+    <section>
+        <h3>Meeting media</h3>
+        <video controls width="1080" src="media/first_meeting.mp4" type="video/mp4"></video>
+        <br>
+        <audio controls src="media/meeting_audio.mp3"></audio>
+    </section>
+    <hr>
+    <section>
+        <h3>Short form</h3>
+        <form>
+            <fieldset>
+                <label for="employee_name">Name</label>
+                <input type="text" name="employee_name"><br><br>
+
+                <label for="absence_date">Date of absence</label>
+                <input type="date" name="absence_date"
+                value="2023-04-10"
+                min="2023-04-10" max="2023-04-14"><br><br>
+
+                <label for="absence_day">What day was this on?</label>
+                <input list="absence_days" type="search"><br><br>
+                <datalist id="absence_days">
+                    <option value="Monday">
+                    <option value="Tuesday">
+                    <option value="Wednesday">
+                    <option value="Thursday">
+                    <option value="Friday">
+                </datalist>
+
+                <label>Which ways can you get to work?</label><br>
+                <input type="checkbox" name="bike" value="Bike">
+                <label for="bike"> I can bike</label><br>
+                <input type="checkbox" name="car" value="Car">
+                <label for="car"> I can drive</label><br>
+                <input type="checkbox" name="bus" value="Boat">
+                <label for="bus"> I can bus</label><br><br>
+
+                <label for="preferred_transport">Which method of transport do you use most often?</label>
+                <select name="preferred_transport">
+                    <option value="bike">Bike</option>
+                    <option value="car">Car</option>
+                    <option value="bus">Bus</option>
+                </select><br><br>
+
+                <label>What department are you in?</label><br>
+                <input type="radio" name="department" value="Finance">
+                <label>Finance</label><br>
+                <input type="radio" name="department" value="Development">
+                <label>Development</label><br>
+                <input type="radio" name="department" value="Marketing">
+                <label>Marketing</label><br><br>
+
+                <label for="absence_reason">Reason for being gone?</label><br>
+                <textarea name="absence_reason" rows="4" cols="50"></textarea><br><br>
+
+                <button type="button">Submit</button>
+            </fieldset>
+        </form>
+    </section>
+    <br>
+    <footer>
+        <div>For more info, contact projects leads</div>
+        <span>Howard Hayword</span>
+        <span>Linda Sparoon</span>
+        <span>Wilson German</span>
+    </footer>
+
+  </body>
+</html>
