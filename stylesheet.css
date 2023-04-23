@@ -113,7 +113,7 @@ header {
     border-top-color: red;
     border-left-color: orange;
     border-right-color: blue;
-    border-right-color: yellowgreen;
+    border-bottom-color: yellowgreen;
     padding: 10px;
 }
 
@@ -142,19 +142,19 @@ ol.agenda-list li {
 }
 
 .menu > ul {
-    border: 2px;
+    border-width: 2px;
     border-style: solid;
     border-color: black;
 }
 
 h1 ~ h2 {
-    border: 2px;
+    border-width: 2px;
     border-style: solid;
     border-color: rgb(0, 255, 183);
 }
 
 h1 + h2 {
-    border: 7.5px;
+    border-width: 7.5px;
     border-style: double;
     border-color: rgb(0, 255, 183);
 }
