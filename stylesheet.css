@@ -1,0 +1,141 @@
+/*  Minute Meeting Style Sheet  */
+
+h1 {
+    color: blue;
+}
+h2 {
+    color: rgba(255, 147, 239, 1);
+}
+h3 {
+    color: hsla(115, 74%, 48%, 1);
+}
+body {
+    color: #6D01FF;
+}
+form {
+    background-color: #C4C4C4;
+    margin: auto;
+}
+* {
+    font-family: 'CustomFont', sans-serif;
+}
+
+.test-box:hover {
+    display: grid;
+    text-align: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    /* Relative */
+    font-size: 2em;
+    /* Relative */
+    width: 20vw;
+    /* Absolute */
+    border-width: 10px;
+    border-style: solid;
+    border-left-style: dashed;
+    border-right-style: dashed;
+    border-color: pink;
+    /* Absolute */
+    padding: 10px 10px 10px 10px;
+    /* Absolute */
+    margin: 10px;
+}
+
+.info-box {
+    text-decoration: black underline;
+    border-radius: 20px;
+    /* Relative */
+    width: 10em;
+    /* Relative */
+    border: .5em solid red;
+    /* Relative */
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 2em;
+    padding-left: 2em;
+    /* Absolute */
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-left: 5px;
+}
+
+#short-form {
+    display: inline-block;
+    border-width: 2px;
+    border-left-width: 4px;
+    border-right-width: 4px;
+    border-style: solid;
+    border-top-color: red;
+    border-left-color: orange;
+    border-right-color: blue;
+    border-right-color: yellowgreen;   
+}
+
+.image-sizing {
+    width: 700px;
+    height: auto;
+}
+
+.image-restrictions {
+    max-width: 1000px;
+    min-width: 700px;
+    height: auto;
+}
+
+.image-positioning {
+    position: absolute;
+    left: 40%;
+    top: 80%;
+}
+
+header {
+    position: static;
+}
+
+.color-border:active {
+    border-width: 5px;
+    border-style: solid;
+    border-top-color: red;
+    border-left-color: orange;
+    border-right-color: blue;
+    border-right-color: yellowgreen;
+}
+
+.flex-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: left;
+    gap: 10px
+}
+
+.media-box {
+    border-width: 5px;
+    border-style: solid;
+    border-top-color: red;
+    border-left-color: orange;
+    border-right-color: blue;
+    border-right-color: yellowgreen;
+    padding: 10px;
+}
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-items: left;
+}
+
+@media screen and (max-width: 768px) {
+    .grid-layout {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url('path/to/font.woff2') format('woff2'), url('path/to/font.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
