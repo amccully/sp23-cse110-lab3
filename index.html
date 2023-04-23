@@ -6,6 +6,7 @@
     <meta name="description" content="Summary of the team 2's first meeting, including 
     resources from and media of the meeting.">
     <link rel="icon" href="media/favicon.png">
+    <link rel="stylesheet" href="stylesheet.css">
   </head>
   <body>
 
@@ -82,18 +83,18 @@
     <hr>
     <section>
         <h3>Photo board</h3>
-        <img src="screenshots/Figure_1.png" alt="Relations between archiving 
+        <img class="image-restrictions" src="screenshots/Figure_1.png" alt="Relations between archiving 
         space, discussion space, and implementation space. Archiving is connected 
         to implementation via backups and code work, implementation is connected to 
         discussion via bug assignment and help, discussion is connected to archiving
         via user requirements and possible adaptations.">
         <br>
-        <img src="screenshots/Figure_2.jpeg" alt="Pomodoro technique 5 step process list. 
+        <img class="image-sizing image-positioning" src="screenshots/Figure_2.jpeg" alt="Pomodoro technique 5 step process list. 
         1, Decide on task, 2, Set a 25 minute timer, 3, Work on the task until the timer
         rings, 4, Take a 5 minute break, 5, After the 4th cycle take a 15 to 30 minute break.">
     </section>
     <hr>
-    <section>
+    <section class="color-border">
         <h3>Meeting media</h3>
         <video controls width="1080" src="media/first_meeting.mp4" type="video/mp4"></video>
         <br>
@@ -102,7 +103,7 @@
     <hr>
     <section>
         <h3>Short form</h3>
-        <form>
+        <form id="short-form">
             <fieldset>
                 <label for="employee_name">Name</label>
                 <input type="text" name="employee_name"><br><br>
@@ -153,11 +154,19 @@
         </form>
     </section>
     <br>
-    <footer>
-        <div>For more info, contact projects leads</div>
-        <span>Howard Hayword</span>
-        <span>Linda Sparoon</span>
-        <span>Wilson German</span>
+    <div class="grid-layout">
+        <span class="media-box">Media Box</span>
+        <span class="media-box">Media Box</span>
+        <span class="media-box">Media Box</span>
+    </div>
+    <br>
+    <footer class="flex-container">
+        <div class="info-box">For more info, contact projects leads</div>
+        <div class="test-box">
+            <span>Howard Hayword,</span>
+            <span>Linda Sparoon,</span>
+            <span>Wilson German</span>
+        </div>
     </footer>
 
   </body>
